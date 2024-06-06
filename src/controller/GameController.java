@@ -4,14 +4,14 @@ import exceptions.MoreThanOneBotException;
 import exceptions.PlayerCountMismatchException;
 import models.Game;
 import models.Player;
-import strategies.winningstrategy.WinnerStrategy;
+import strategies.winningstrategy.WinningStrategy;
 
 import java.util.List;
 
 public class GameController {
     public Game startGame(int dimensionsOfBoard,
                           List<Player> players,
-                          List<WinnerStrategy> winnerStrategies) throws PlayerCountMismatchException, MoreThanOneBotException {
+                          List<WinningStrategy> winnerStrategies) throws PlayerCountMismatchException, MoreThanOneBotException {
         return null;
     }
 

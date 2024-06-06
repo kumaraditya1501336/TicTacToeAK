@@ -50,4 +50,13 @@ public class Player {
     }
 
 
+    public Move makeMove (Board board) {
+        System.out.println("Please enter the row (0 based index) - ");
+        int row = scanner.nextInt();
+
+        System.out.println("Please enter the column (0 based index) - ");
+        int col = scanner.nextInt();
+
+        return new Move (new Cell (row, col), this);
+    }
 }

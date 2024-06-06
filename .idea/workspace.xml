@@ -5,31 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55a15126-f4f9-49c4-9565-77f71959d9a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TicTacToeAK.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/GameController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/MoreThanOneBotException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/PlayerCountMismatchException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Bot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/BotDifficultiLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/CellState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/PlayerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/models/Symbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/botplayingstrategy/BotPlayingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/botplayingstrategy/BotPlayingStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/botplayingstrategy/EasyBotPlayingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategies/winningstrategy/WinnerStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/winningstrategy/ColumnWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/winningstrategy/DiagonalWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategies/winningstrategy/RowWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/Symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/Symbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategies/winningstrategy/WinnerStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategies/winningstrategy/WinningStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +49,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "D:/Scaler/TicTacToeAK"
   }
 }]]></component>
