@@ -9,13 +9,13 @@ public class Board {
 
     public Board(int size) {
         this.size = size;
-        board = new ArrayList<>();
+        board = new ArrayList<>();  // []
 
         for (int i = 0; i < size; i++) {
-            board.add(new ArrayList<>());
+            board.add(new ArrayList<>());   // [[], [], []]
 
             for (int j = 0; j < size; j++) {
-                board.get(i).add(new Cell(i, j));
+                board.get(i).add(new Cell(i, j));   // [[o, o, o], [o, o, o], [o, o, o]]
             }
         }
     }
